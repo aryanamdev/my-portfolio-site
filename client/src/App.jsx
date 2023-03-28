@@ -5,12 +5,14 @@ import Home from "./pages/Home";
 import Blogs from "./pages/Blogs";
 import Projects from "./pages/Projects";
 import ErrorPage from "./pages/ErrorPage";
+import Hero from "./components/Hero";
 
 function App() {
   return (
     <div className="all heading-gradient text-white pt-10">
       <div className="universal-wrapper mx-auto">
         <Navbar />
+        <Hero />
         <Routes>
           <Route index element={<Home />} />
           <Route path="projects" element={<Projects />} />

@@ -10,6 +10,10 @@
   --color-light-purple: #cf59e6;
   --color-light-blue: #6bc5f8;
 }
+body,
+html {
+  scroll-behavior: smooth;
+}
 .universal-wrapper {
   max-width: 1024px;
   height: 100px;
